@@ -25,4 +25,4 @@ function [it, x, Er] = bissecao(a, b, p, itMax)
 endfunction
 
 // Exemplo de chamada
-[it, x, Er] = bissecao(1, 2, 4, 20)
+[it, x, Er] = bissecao(2, 3, 4, 20)
