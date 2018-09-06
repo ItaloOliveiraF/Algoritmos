@@ -6,7 +6,7 @@
 function dy = f(x, y)
      dy = -1.2*y + 7*exp(-0.3*x)
 endfunction
-//
+
 //Implementação de RK4
 function [x,y] = RK4(y0, a, b, h)
     x = a:h:b;
