@@ -13,8 +13,7 @@ function [x,Aa] = gauss(A, b)
             Aa(j,:) = Aa(j,:) - m*Aa(i,:);
         end
     end
-    x= 0;
-   x = resRet(Aa(:,1:c),Aa(:,c+1));
+   x = resRet(Aa(:,1:c),Aa(:,c+1)); // utilizando a função de resolução retroativa 
 endfunction
 
 //Declarando as variáveis que serão utilizadas
