@@ -2,7 +2,7 @@ clear;
 clc;
 
 // Implementação resolução pelo método de Gauss Seidel
-function [x, Er]= jacobi(A,b,x0,n)
+function [x, Er]= gseidel(A,b,x0,n)
     [l,c]=size(A)
     
     erro = 1;
