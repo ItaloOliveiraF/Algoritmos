@@ -1,3 +1,6 @@
+clear;
+clc;
+
 //Problema exemplo: dada a equação diferencial dy/dx = -1.2y + 7exp(-0.3x)
 //com condições iniciais y(0) = 3
 //no intervalo de a = 0 à b = 2.5 com um passo h = 0.5
