@@ -32,4 +32,4 @@ x0 = zeros(1,3);
 n = 10;
 
 //Exemplo chamada 
-[x, Er]= jacobi(A,b,x0,n);
+[x, Er]= gseidel(A,b,x0,n);
