@@ -9,7 +9,7 @@ function [S]=interpolLagrange(x0,xi,yi)
     for i=1:nPontos
         produto=1
         //produtório
-        for j=1:n
+        for j=1:nPontos
            if i~=j then
                 produto=produto*(x0-xi(j))/(xi(i)-xi(j))
            end
